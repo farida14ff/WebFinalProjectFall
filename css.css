@@ -1,0 +1,172 @@
+body {
+    background-image: url('https://images.wallpaperscraft.ru/image/morozhenoe_led_klubnika_yagody_100062_1280x720.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.vertical-card{
+    width: 280px;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 20px;
+
+    /*background: #212121;*/
+}
+
+.item img {
+    height: 450px !important;
+    width: 850px !important;
+}
+.forms-conn{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.name-form-at{
+    color: aliceblue;
+    margin-top: 40px;
+}
+
+.fixed-box {
+    height: 60px;
+}
+.fixed-div {
+    height: 60px;
+}
+.fixed {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+
+.about-photps{
+    display: inline-flex;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.marg-mod{
+    margin-top: 200px;
+}
+
+.get-a-job-card{
+    width: 700px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 130px;
+    opacity: 0.9;
+}
+.shrink:hover {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    transition-duration: 0.3s;
+
+}
+.my-btn{
+    background-color: #575757;
+    color: #ffffff;
+    border: 1px solid #23b2ff;
+    margin-bottom: 100px;
+    height: 38px;
+    border-radius: 3px;
+    width: 110px;
+}
+.my-btn:hover{
+    background-color: #6a6969;
+    transition-duration: 0.5s;
+}
+
+.threed:hover {
+    box-shadow:
+            1px 1px #53ea93,
+            2px 2px #53ea93,
+            3px 3px #53ea93,
+            4px 4px #53ea93,
+            5px 5px #53ea93,
+            6px 6px #53ea93,
+            7px 7px #53ea93;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+    transition-duration: 0.4s;
+}
+
+.photo-card{
+    width: 700px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 130px;
+}
+.form-control:valid {
+    background-color: #fffdfa !important;
+}
+.btn:valid{
+    background: #6a6969 !important;
+    margin-bottom: 40px;
+}
+.btn:hover{
+    background: #434242 !important;;
+}
+
+.footer-class a{
+    color: #fff !important;
+}
+
+.photo-card-opacityy{
+    width: 700px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 130px;
+    opacity: 0.3;
+}
+
+.get-a-jab-text{
+    font-family: "Nimbus Roman No9 L", serif;
+    font-size: 40px;
+    color: black;
+
+
+}
+
+.text-prop{
+    color: white;
+    font-family: "Fira Code Light", serif;
+    font-size: 25px;
+}
+
+.text-size-large{
+    font-size: 30px;
+    color: white;
+}
+
+.text-size-small{
+    color: white;
+    font-size: 14px;
+}
+
+
+
+.text-color-w{
+    color: white;
+}
+
+hr.style1{
+    border-top: 1px solid #8c8b8b;
+    width: 180px;
+}
+hr.style2{
+    border-top: 1px solid #8c8b8b;
+    width: 40px;
+}
+
+
+.main-border{
+    border: 1px solid white;
+    height: auto;
+    margin-bottom: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+

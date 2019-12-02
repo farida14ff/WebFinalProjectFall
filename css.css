@@ -39,6 +39,9 @@ body {
     z-index: 9999;
     top: 0;
 }
+.my-ph{
+    width: 630px;
+}
 
 .about-photps{
     display: inline-flex;

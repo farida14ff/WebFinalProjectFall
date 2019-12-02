@@ -109,6 +109,16 @@ body {
     background: #434242 !important;;
 }
 
+.table-stylen{
+    color: white;
+}
+
+.title-cl{
+    margin-top: 20px;
+    margin-left: 280px;
+    color: black;
+}
+
 .footer-class a{
     color: #fff !important;
 }
@@ -124,7 +134,7 @@ body {
 .get-a-jab-text{
     font-family: "Nimbus Roman No9 L", serif;
     font-size: 40px;
-    color: black;
+    color: #fbfbfb;
 
 
 }
@@ -144,8 +154,6 @@ body {
     color: white;
     font-size: 14px;
 }
-
-
 
 
 

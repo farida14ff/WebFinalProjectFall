@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Connection</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
     <link href="css.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="app.js"></script>
-    <script src="app.js"></script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="http://ваш-сайт.ru/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgWDI1YcQTcTa2IoQn_yuEXtWwuLy7KbkFZ5H-2F3554d_j29nAQ&s/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://ваш-сайт.ru/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgWDI1YcQTcTa2IoQn_yuEXtWwuLy7KbkFZ5H-2F3554d_j29nAQ&sfavicon.ico" type="image/x-icon">
+
 
 </head>
 
@@ -73,28 +80,28 @@
     </div>
 
     <div class="card bg-dark photo-card">
-        <form class="forms-conn">
+        <form action="telegram.php" method="POST" class="forms-conn">
 
             <div class="form-group" >
                 <iframe class="w-100 mt-3 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1462.9741940662034!2d74.62082693846284!3d42.83170402698919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb673d1872c53%3A0x3b0e4648f0cfb35d!2s177%20Yunusaliev%20Ave%2C%20Bishkek!5e0!3m2!1sen!2skg!4v1574935683100!5m2!1sen!2skg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 <label for="name"  class="name-form-at"  >*Имя</label>
-                    <input type="text" class="form-control" id="name"   placeholder="Введите имя">
+                    <input type="text" class="form-control" id="name"  name="_name_" placeholder="Введите имя">
             </div>
 
             <div class="form-group " >
                 <label for="exampleInputEmail1" style="color: aliceblue">*Email адрес</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите email">
+                <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите email">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
 
             <div class="form-group" >
                 <label for="name" style="color: aliceblue">Тема</label>
-                <input type="text" class="form-control" id="subject"  placeholder="Введите тему сообщения">
+                <input type="text" class="form-control" id="subject" name="title"  placeholder="Введите тему сообщения">
             </div>
 
             <div class="form-group "  >
                 <label for="name" style="color: aliceblue">Сообщение</label>
-                <input type="text" class="form-control" id="message"  style="height: 100px " placeholder="">
+                <input type="text" class="form-control" id="message" name="message" style="height: 100px " placeholder="">
             </div>
 
             <button type="button" class="my-btn grow" data-toggle="modal" data-target="#exampleModalLong">Отправить</button>
@@ -114,7 +121,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
-                <button type="button" class="btn btn-primary">Отпраить</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Отпраить</button>
             </div>
         </div>
     </div>
@@ -153,13 +160,13 @@
             <hr class="w-100 clearfix d-md-none">
 
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" >
-                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                <h6 class="text-uppercase mb-4 font-weight-bold" style="margin-left: 15px">Контакты</h6>
                 <p>
                     <i class="fas fa-home mr-3"></i> 7 мкр, Юнусалиева 177, Бишкек</p>
                 <p>
                     <i class="fas fa-envelope mr-3"></i> tongal5@mail.ru</p>
                 <p>
-                    <i class="fas fa-phone mr-3"></i> +996 556 77 44 27</p>
+                    <i class="fas fa-phone mr-3"></i> +996 556 774 427</p>
                 <p>
                     <i class="fas fa-print mr-3"></i> +996 500 566 003</p>
             </div>
@@ -201,5 +208,21 @@
         </div>
     </div>
 </footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+<script src="app.js"></script>
+
+
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>

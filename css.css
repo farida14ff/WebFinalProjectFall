@@ -57,7 +57,7 @@ body {
     width: 700px;
     height: auto;
     margin-left: 80px;
-    margin-top: 130px;
+    margin-top: 20px;
     opacity: 0.9;
 }
 .shrink:hover {
@@ -99,7 +99,7 @@ body {
     width: 700px;
     height: auto;
     margin-left: 80px;
-    margin-top: 130px;
+    margin-top: 20px;
 }
 .form-control:valid {
     background-color: #fffdfa !important;
@@ -158,7 +158,12 @@ body {
     font-size: 14px;
 }
 
-
+.footer-icon{
+    margin-top: 2px;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
 
 .text-color-w{
     color: white;
